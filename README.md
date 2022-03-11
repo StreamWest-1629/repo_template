@@ -6,7 +6,7 @@
     ```sh
     # 置換対策のためにスペースを追加しています
     # コマンドで使用するときはとしてください
-    $ sed -e "s%streamwest-1629 / repo_template%<username> / <reponame>%g" readme.md
+    $ sed -i -e "s%streamwest-1629 / repo_template%<username> / <reponame>%g" readme.md
     ```
 
 ## Issue作成（各リポジトリごとにうまい具合に設定してください）
