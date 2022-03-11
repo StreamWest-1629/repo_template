@@ -1,6 +1,12 @@
 # repo_template
 面倒だと思うその前にtemplateを作りました．
 
+## テンプレートとして使用したらはじめにすること
+1. readme.mdの修正
+    ```sh
+    $ sed -e "s%streamwest-1629/repo_template%<username>/<reponame>%g" readme.md
+    ```
+
 ## Issue作成（各リポジトリごとにうまい具合に設定してください）
 | Project \ Issue | improve | bugfix |
 | :-- | :-: | :-: |
