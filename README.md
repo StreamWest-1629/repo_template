@@ -20,10 +20,9 @@
     2. [Settings](https://github.com/StreamWest-1629/repo_template/projects/settings) の `Pull Requests` から `Automatically delete head branches` の項目にチェックをつけてください．
 
 3. **dockerfileの修正**
-    ビルド・デプロイ用にdocker (compose)を用いることを前提に組まれている．そのため，`build.dockerfile` や `docker-compose.yml` をうまい具合に書き直してほしい．
-    
-    （Future Feature: 新しい言語を触るときはその都度このリポジトリのどこかにプリセットとしておいておきたい）
-
+    - ビルド・デプロイ用にdocker (compose)を用いることを前提に組まれている．
+    - そのため，`build.dockerfile` や `docker-compose.yml` をうまい具合に書き直してほしい．
+        （Future Feature: 新しい言語を触るときはその都度このリポジトリのどこかにプリセットとしておいておきたい）
     > ちなみに，デフォルトではGolangを修正しやすいようにわざわざ `build.dockerfile ` に記述している．
 
 ## ブランチ運用ルール（`Git-flow`ベースな感じ）
