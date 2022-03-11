@@ -14,7 +14,7 @@
     $ sed -i -e "s%streamwest-1629 / repo_template%<username> / <reponame>%g" readme.md
     ```
 
-2. dockerfileの修正
+3. dockerfileの修正
     ビルド・デプロイ用にdocker (compose)を用いることを前提に組まれている．そのため，`build.dockerfile` や `docker-compose.yml` をうまい具合に書き直してほしい．
     
     （Future Feature: 新しい言語を触るときはその都度このリポジトリのどこかにプリセットとしておいておきたい）
