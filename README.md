@@ -7,7 +7,7 @@
 | [issue and improve][@issue_and_improve] | [Make Issue][improve@issue_and_improve] | [Make Issue][bugfix@issue_and_improve] |
 
 ## テンプレートとして使用したらはじめにすること
-1. readme.mdの修正
+1. **readme.mdの修正，やらないと許さない**
     ```sh
     # 置換対策のためにスペースを追加しています
     # コマンドで使用するときはとしてください
