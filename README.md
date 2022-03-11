@@ -27,6 +27,9 @@
     > ちなみに，デフォルトではGolangを修正しやすいようにわざわざ `build.dockerfile ` に記述している．
 
 ## ブランチ運用ルール（`Git-flow`ベースな感じ）
+
+> 大前提として，およそ Issue > (fixing) > Pull request > (review) > mergeの順を守ってください
+
 - Issueに紐づいたブランチを作るときはIssueのDevelopmentからブランチを切る
     - Issueとブランチを紐づけて管理しやすくするため
 - コミット時には必ず先頭に `#[Issue番号]:` を付ける
