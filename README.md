@@ -14,6 +14,11 @@
     $ sed -i -e "s%streamwest-1629 / repo_template%<username> / <reponame>%g" readme.md
     ```
 
+2. リポジトリの設定を変更
+    1. Projectsの作成
+        [make projects](https://github.com/StreamWest-1629/repo_template/projects/new) から`issue and improve`プロジェクトを作成します．Templateは `Automated kanban` が良いかと思います（楽なので）．
+    2. [Settings](https://github.com/StreamWest-1629/repo_template/projects/settings) の `Pull Requests` から `Automatically delete head branches` の項目にチェックをつけてください．
+
 3. dockerfileの修正
     ビルド・デプロイ用にdocker (compose)を用いることを前提に組まれている．そのため，`build.dockerfile` や `docker-compose.yml` をうまい具合に書き直してほしい．
     
