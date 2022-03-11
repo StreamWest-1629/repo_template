@@ -4,7 +4,7 @@
 ## Issue作成（各リポジトリごとにうまい具合に設定してください）
 | Project \ Issue | improve | bugfix |
 | :-- | :-: | :-: |
-| [issue and improve][@issue_and_improve] | [Make Issue][improve@issue_and_improve] | [Make Issue] |
+| [issue and improve][@issue_and_improve] | [Make Issue][improve@issue_and_improve] | [Make Issue][bugfix@issue_and_improve] |
 
 <!-- Issue and Improve project -->
 [@issue_and_improve]:https://github.com/streamwest-1629/repo_template/projects/1 
