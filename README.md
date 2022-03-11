@@ -4,7 +4,9 @@
 ## テンプレートとして使用したらはじめにすること
 1. readme.mdの修正
     ```sh
-    $ sed -e "s%streamwest-1629/repo_template%<username>/<reponame>%g" readme.md
+    # 置換対策のためにスペースを追加しています
+    # コマンドで使用するときはとしてください
+    $ sed -e "s%streamwest-1629 / repo_template%<username> / <reponame>%g" readme.md
     ```
 
 ## Issue作成（各リポジトリごとにうまい具合に設定してください）
