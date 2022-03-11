@@ -7,14 +7,19 @@
 | [issue and improve][@issue_and_improve] | [Make Issue][improve@issue_and_improve] | [Make Issue][bugfix@issue_and_improve] |
 
 ## テンプレートとして使用したらはじめにすること
-1. readme.mdの修正
+1. **readme.mdの修正，やらないと許さない**
     ```sh
     # 置換対策のためにスペースを追加しています
     # コマンドで使用するときはとしてください
     $ sed -i -e "s%streamwest-1629 / repo_template%<username> / <reponame>%g" readme.md
     ```
 
-2. dockerfileの修正
+2. リポジトリの設定を変更
+    1. Projectsの作成
+        [make projects](https://github.com/StreamWest-1629/repo_template/projects/new) から`issue and improve`プロジェクトを作成します．Templateは `Automated kanban` が良いかと思います（楽なので）．
+    2. [Settings](https://github.com/StreamWest-1629/repo_template/projects/settings) の `Pull Requests` から `Automatically delete head branches` の項目にチェックをつけてください．
+
+3. dockerfileの修正
     ビルド・デプロイ用にdocker (compose)を用いることを前提に組まれている．そのため，`build.dockerfile` や `docker-compose.yml` をうまい具合に書き直してほしい．
     
     （Future Feature: 新しい言語を触るときはその都度このリポジトリのどこかにプリセットとしておいておきたい）
@@ -22,6 +27,9 @@
     > ちなみに，デフォルトではGolangを修正しやすいようにわざわざ `build.dockerfile ` に記述している．
 
 ## ブランチ運用ルール（`Git-flow`ベースな感じ）
+
+> 大前提として，およそ Issue > (fixing) > Pull request > (review) > mergeの順を守ってください
+
 - Issueに紐づいたブランチを作るときはIssueのDevelopmentからブランチを切る
     - Issueとブランチを紐づけて管理しやすくするため
 - コミット時には必ず先頭に `#[Issue番号]:` を付ける
