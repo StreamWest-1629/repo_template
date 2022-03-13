@@ -16,8 +16,8 @@
 
 2. **リポジトリの設定を変更**
     1. Projectsの作成
-        [make projects](https://github.com/StreamWest-1629/repo_template/projects/new) から`issue and improve`プロジェクトを作成します．Templateは `Automated kanban` が良いかと思います（楽なので）．
-    2. [Settings](https://github.com/StreamWest-1629/repo_template/projects/settings) の `Pull Requests` から `Automatically delete head branches` の項目にチェックをつけてください．
+        [make projects](https://github.com/streamwest-1629/repo_template/projects/new) から`issue and improve`プロジェクトを作成します．Templateは `Automated kanban` が良いかと思います（楽なので）．
+    2. [Settings](https://github.com/streamwest-1629/repo_template/projects/settings) の `Pull Requests` から `Automatically delete head branches` の項目にチェックをつけてください．
 
 3. **dockerfileの修正**
     - ビルド・デプロイ用にdocker (compose)を用いることを前提に組まれている．
